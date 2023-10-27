@@ -1,23 +1,23 @@
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
   body {
-    background-color: lightblue;
+    background-color: rgb(205, 233, 242);
   }
-}
+} */
  
  
- #search{
+ #search1{
     width: 500px;
     border-radius: 20px;
     background-color: rgb(238, 255, 255);
     margin-left: 15%;
     border-color: rgb(218, 247, 247);
     border-style: hidden;
-} 
+}  
 
 
 .dark{
   border: solid #000000;
-  width: 200px;
+  width: 1905px;
 
 }
 
@@ -28,26 +28,28 @@
    
 .amin2 {
 display: flex;
+padding: 2vh;
 }
 
  
  .amin3 {
   display: flex;
   
-
+  padding: 2vh;
   }
 
   .amin4{
     display: flex;
+    padding: 2vh;
   } 
 
- body {
+ /* body {
   display: block;
     padding: px;
     background-color: white;
     color: black;
     font-size: 25px;
-  }
+  } */
   
 .dark-mode {
     background-color: rgb(0, 0, 0);
@@ -62,10 +64,10 @@ display: flex;
 
    * {box-sizing: border-box;}
 
-body { 
+/* body { 
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-}
+} */
 
 .header {
   overflow: hidden;
@@ -463,36 +465,36 @@ img {vertical-align: middle;}
 
 /* ----------------------------------------------------------------head names------------------------------------------------------------------ */
 div.scrollmenu {
-  background-color: #606060;
+  background-color: #000000;
   overflow: auto;
-  white-space: nowrap;
+  white-space:nowrap;
 }
 
 div.scrollmenu a {
   display: inline-block;
-  color: white;
+  color: rgb(255, 217, 81);
   text-align: center;
   padding: 33px;
   text-decoration: none;
 }
 
 div.scrollmenu a:hover {
-  background-color: #7fa8ff76;
+  background-color: #5f5f5f;
 }
 
-/* -------------------------------------------------------------icons footer---------------------------------------------------------------------------- */
 
+/* -------------------------------------------------------------icons footer---------------------------------------------------------------------------- */
 .fa {
   padding: 15px;
-  font-size: 20px;
-  width: 50px;
+  font-size: 10px;
+  width: 80px;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
 }
 
 .fa:hover {
-    opacity: 0.7;
+    opacity: 0.9;
 }
 
 .fa-facebook {
@@ -533,7 +535,7 @@ div.scrollmenu a:hover {
 
 /* Button used to open the chat form - fixed at the bottom of the page */
 .open-button {
-  background-color: #191f22;
+  background-color: #ff0000;
   color: rgb(255, 255, 255);
   padding: 16px 20px;
   border: none;
@@ -551,7 +553,7 @@ div.scrollmenu a:hover {
   position: fixed;
   bottom: 0;
   right: 15px;
-  border: 3px solid #f1f1f1;
+  border: 8px solid #fbff16;
   z-index: 9;
 }
 
@@ -559,7 +561,7 @@ div.scrollmenu a:hover {
 .form-container {
   max-width: 300px;
   padding: 10px;
-  background-color: rgb(165, 199, 171);
+  background-color: rgb(74, 182, 174);
 }
 
 /* Full-width textarea */
@@ -581,7 +583,7 @@ div.scrollmenu a:hover {
 
 /* Set a style for the submit/send button */
 .form-container .btn {
-  background-color: #04AA6D;
+  background-color: #00ff5e;
   color: white;
   padding: 16px 20px;
   border: none;
@@ -593,10 +595,1031 @@ div.scrollmenu a:hover {
 
 /* Add a red background color to the cancel button */
 .form-container .cancel {
-  background-color: red;
+  background-color: rgb(255, 0, 0);
 }
 
 /* Add some hover effects to buttons */
 .form-container .btn:hover, .open-button:hover {
-  opacity: 1;
+  opacity: 10;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #000000;
+  overflow-x: hidden;
+  transition: 0.1s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ffffff;
+  display: block;
+  transition: 0.1s;
+}
+
+.sidenav a:hover {
+  color: #fffb00;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+
+
+
+/* ---------------------------------------------new icon--------------------------------------------------------- */
+
+
+
+ .btn {
+  border: none;
+  border-radius: 5px;
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #282A35;
+  color: rgb(255, 255, 255);
+  position: relative;
+}
+
+.ribbon {
+  width: 60px;
+  font-size: 14px;
+  padding: 4px;
+  position: absolute;
+  right: 10px;
+  top: -12px;
+  text-align: center;
+  border-radius: 25px;
+  transform: rotate(20deg);
+  background-color: #009dff;
+  color: white;
+} 
+
+.ribbon:hover{
+  background-color: #ce41bb;
+}
+
+
+.ribbon1 {
+  width: 60px;
+  font-size: 14px;
+  padding: 4px;
+  position: absolute;
+  right: 10px;
+  top: -12px;
+  text-align: center;
+  border-radius: 25px;
+  transform: rotate(20deg);
+  background-color: #ff0000;
+  color: white;
+} 
+
+.ribbon1:hover{
+  background-color: #21ff08;
+}
+
+
+
+.ribbon2 {
+  width: 60px;
+  font-size: 14px;
+  padding: 4px;
+  position: absolute;
+  right: 10px;
+  top: -12px;
+  text-align: center;
+  border-radius: 25px;
+  transform: rotate(20deg);
+  background-color: #00ff99;
+  color: white;
+} 
+
+.ribbon2:hover{
+  background-color: #ffea00;
+}
+
+
+/* -------------------------------------------------------rate footer---------------------------------------------------------------------------- */
+
+
+
+/* * {
+  box-sizing: border-box;
+} */
+
+.heading {
+  font-size: 25px;
+  margin-right: 25px;
+}
+
+.fa {
+  font-size: 25px;
+}
+
+.checked {
+  color: rgb(255, 204, 0);
+}
+
+/* Three column layout */
+.side {
+  float: left;
+  width: 15%;
+  margin-top:10px;
+}
+
+.middle {
+  margin-top:10px;
+  float: left;
+  width: 70%;
+}
+
+/* Place text to the right */
+.right {
+  text-align: right;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The bar container */
+.bar-container {
+  width: 100%;
+  background-color: #f1f1f1;
+  text-align: center;
+  color: white;
+}
+
+/* Individual bars */
+.bar-5 {width: 60%; height: 18px; background-color: #26ff00;}
+.bar-4 {width: 30%; height: 18px; background-color: #272cc0;}
+.bar-3 {width: 10%; height: 18px; background-color: #00bcd4;}
+.bar-2 {width: 4%; height: 18px; background-color: #ff9800;}
+.bar-1 {width: 15%; height: 18px; background-color: #f44336;}
+
+/* Responsive layout - make the columns stack on top of each other instead of next to each other */
+@media (max-width: 400px) {
+  .side, .middle {
+    width: 100%;
+  }
+  .right {
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+#card6{
+  animation-name: card6;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+  
+}
+
+@keyframes card6{
+  50%{background-color: #fcf5da;}
+  100%{background-color: #f8f8d3;}
+}
+
+
+#card7{
+  animation-name: card7;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+  
+}
+
+@keyframes card7{
+  50%{background-color: #fcf5da;}
+  100%{background-color: #f8f8d3;}
+}
+
+
+
+
+
+#card8{
+  animation-name: card8;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+  
+}
+
+@keyframes card8{
+  50%{background-color: #fcf5da;}
+  100%{background-color: #f8f8d3;}
+}
+
+
+
+
+
+
+#card9{
+  animation-name: card9;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+  
+}
+
+@keyframes card9{
+  50%{background-color: #fcf5da;}
+  100%{background-color: #f8f8d3;}
+}
+
+
+
+
+
+
+#card10{
+  animation-name: card10;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+  
+}
+
+@keyframes card10{
+  50%{background-color: #fcf5da;}
+  100%{background-color: #f8f8d3;}
+}
+
+/* ------------------------------------------------------------------------------------ */
+
+#card11{
+  animation-name: card11;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+  
+}
+
+@keyframes card11{
+  50%{background-color: hsl(184, 100%, 94%);}
+  100%{background-color: #d0fffe;}
+}
+
+
+
+
+#card12{
+  animation-name: card12;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+  
+}
+
+@keyframes card12{
+  50%{background-color: #e2fdff;}
+  100%{background-color: #cafffd;}
+}
+
+
+
+
+
+#card13{
+  animation-name: card13;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+  
+}
+
+@keyframes card13{
+  50%{background-color: #e2f8f7;}
+  100%{background-color: #bef5f2;}
+}
+
+
+
+
+#card14{
+  animation-name: card14;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+  
+}
+
+@keyframes card14{
+  50%{background-color: #c7f7ff;}
+  100%{background-color: #c1f8ff;}
+}
+
+
+
+
+
+#card15{
+  animation-name: card15;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+  
+}
+
+@keyframes card15{
+  50%{background-color: #befaff;}
+  100%{background-color: #bcf9ff;}
+}
+
+/* --------------------------------------------loading----------------------------------------------------------------- */
+.buttonload {
+  background-color: #04aaa2; /* Green background */
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 8px 14px; /* Some padding */
+  font-size: 15px; /* Set a font-size */
+}
+
+/* Add a right margin to each icon */
+.fa {
+  margin-left: 2px;
+  margin-right: 8px;
+}
+
+
+/* ---------------------------------------------------download------------------------------------------------ */
+/* 
+
+.btn21 {
+  background-color: rgb(30, 0, 255);
+  border: 2px;
+  color: rgb(255, 252, 252);
+  padding: 5px 55px 8px 55px ;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 5%;
+}
+
+/* Darker background on mouse-over */
+.btn21:hover {
+  background-color: rgb(46, 255, 126);
+} */
+/* -----------------------------------info----------------------------------------------------- */
+* {
+  box-sizing: border-box;
+}
+
+/* Float four columns side by side */
+.column12 {
+  float: left;
+  width: 20%;
+  padding: 0 50px;
+}
+
+.row12 {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row12:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column12 {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+
+/* Style the counter cards */
+.card12 {
+  box-shadow: 0 4px 8px 0 rgba(255, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f898f7;
+  color: rgb(255, 255, 255);
+}
+
+.fa {font-size:50px;}
+
+
+
+
+.collapsible {
+  background-color: #80ff4e;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #4df933;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f4ff79;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ #myVideo {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div.scrollmenu2 {
+ background-color: #000000;
+  overflow: auto;
+  white-space:nowrap;
+}
+
+div.scrollmenu2 a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 33px;
+  text-decoration: none;
+}
+
+div.scrollmenu2 a:hover {
+  background-color: #2b3e41;
+}
+
+
+
+
+
+
+div.scrollmenu3 {
+  background-color: #380b0b;
+  overflow: auto;
+  white-space:nowrap;
+}
+
+div.scrollmenu3 a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 33px;
+  text-decoration: none;
+}
+
+div.scrollmenu3 a:hover {
+  background-color: #11431e;
+}
+
+
+
+
+
+
+
+
+ input[type=search21] {
+  width: 150px;
+  border-radius: 20px;
+  background-color: rgb(255, 238, 254);
+  margin-left: 42%;
+  border-color: rgb(230, 0, 255);
+  border-style: hidden;
+  box-sizing: border-box;
+  border: 2px solid #cccccc;
+  font-size: 16px;
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=search21]:focus {
+  width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.custom-select {
+  position: relative;
+  font-family: Arial;
+}
+
+.custom-select select {
+  display: none; /*hide original SELECT element:*/
+}
+
+.select-selected {
+  background-color: DodgerBlue;
+}
+
+/*style the arrow inside the select element:*/
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #fff transparent transparent transparent;
+}
+
+/*point the arrow upwards when the select box is open (active):*/
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #fff transparent;
+  top: 7px;
+}
+
+/*style the items (options), including the selected item:*/
+.select-items div,.select-selected {
+  color: #ffffff;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+  user-select: none;
+}
+
+/*style items (options):*/
+.select-items {
+  position: absolute;
+  background-color: DodgerBlue;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+/*hide the items when the select box is closed:*/
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+
+
+
+
+
+input[type=text3], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ff00e1;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=email3], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ff00cc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+/* input[type=submit3] {
+  background-color: #00ffa2;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+} */
+
+.btn45:hover {
+  background-color: #ec4b4b;
+}
+
+.container3 {
+  border-radius: 5px;
+  background-color: #fffefe;
+  padding: 25px;
+  
+}
+
+.btn45{
+  background-color: #00ffa2;
+  color: white;
+  padding: 30px 130px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 1%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+* {box-sizing: border-box;}
+
+.bg-img {
+  /* The image used */
+  background-image: url("folder/rapfa.jpeg");
+
+  min-height: 380px;
+}
+  
+  /* background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+
+  position: relative;
+}
+
+
+.container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+input[type=text8], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=email8], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+/* input[type=submit3] {
+  background-color: #00ffa2;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+} */
+
+.btn8:hover {
+  background-color: #000000;
+}
+
+.container8 {
+  border-radius: 5px;
+  background-color: #fffefe;
+  padding: 25px;
+  
+}
+
+.btn8{
+  background-color: #544747;
+  color: white;
+  padding: 30px 130px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 1%;
+  font-size: 3vh;
+}
+
+
+
+* {box-sizing: border-box;}
+
+.bg-img21 {
+  /* The image used */
+ 
+  min-height: 500px;
+  animation-name: bg;
+  animation-iteration-count: infinite;
+  animation-duration: 25s;
+}
+@keyframes bg {
+  5%{background-image: url("folder/شوالیه\ تاریکی.jpeg");}
+  15%{background-image: url("folder/کینگ\ کونگ\ در\ برابر\ گودزیلا.jpeg");}
+  25%{background-image: url("folder/میان\ ستاره.jpeg");}
+  35%{background-image: url("folder/ونوم\ 2.jpeg");}
+  45%{background-image: url("folder/کشتی\ جنگی.jpeg");}
+  60%{background-image: url("folder/احضار.jpeg");}
+  75%{background-image: url("folder/اره\ 4.jpeg");}
+  85%{background-image: url("folder/bloodshot.jpeg");}
+  100%{background-image: url("folder/مگ\ دو.jpeg");}
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+* {
+  box-sizing: border-box;
+}
+
+.navbar55 {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar55 a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown55 {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown55 .dropbtn {
+  font-size: 16px;  
+  border: none;
+ 
+  color: white;
+  padding: 1px 16px;
+  background-color: inherit;
+  
+}
+
+.navbar55 a:hover, .dropdown55:hover .dropbtn {
+  background-color: rgb(32, 27, 27);
+}
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 40%;
+  left: 0;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content .header55 {
+  background: red;
+  padding: 16px;
+  color: white;
+}
+
+.dropdown55:hover .dropdown-content {
+  display: block;
+}
+
+/* Create three equal columns that floats next to each other */
+/* .column55 {
+  float: left;
+  width: 33%;
+  padding: 1px;
+  background-color: #ccc;
+  height: 210px;
+}
+
+.column55 a {
+  float: none;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.column55 a:hover {
+  background-color: #ddd;
+}
+
+
+.row55:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width: 600px) {
+  .column55 {
+    width: 100%;
+    height: auto;
+  }
+} */ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* * {
+  box-sizing: border-box;
+} */
+
+#myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee;
+}
+
+
+
+.content250 {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  margin-top: 3vh;
+  border-radius: 50px;
+}
+
+
+.collapsible250 {
+  background-color: #53404c;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align:center;
+  outline: none;
+  font-size: 15px;
+  margin-top: 2%;
+ font-size:3vh ;
+  border-radius: 10vh;
+  
+}
+
+.collapsible250:hover{
+  background-color: rgb(0, 0, 0);
+}
+
+
+
