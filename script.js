@@ -1085,7 +1085,7 @@
 
 // ------------------------------92-----------------------------
 
-function myFunction() {
+function myFunction2() {
     var element = document.body;
     element.classList.toggle("dark-mode");
  }
@@ -1107,18 +1107,18 @@ window.onclick = function(event) {
 
 // ------------------------------94-----------------------------
 
-let slideIndex = 1;
-showSlides(slideIndex);
+ let slideIndex = 1;
+ showSlides(slideIndex);
 
 function plusSlides(n) {
   showSlides(slideIndex += n);
-}
+ }
 
-function currentSlide(n) {
+ function currentSlide(n) {
   showSlides(slideIndex = n);
-}
+ }
 
-function showSlides(n) {
+ function showSlides(n) {
   let i;
   let slides = document.getElementsByClassName("mySlides");
   let dots = document.getElementsByClassName("dot");
@@ -1246,3 +1246,188 @@ function closeForm() {
 //     sec --
 
 // }, 1)
+
+
+// ----------------------------------------------------------------------
+
+
+
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+
+
+
+// let h1elm = document.getElementsByClassName("amin")
+
+// console.log(h1elm)
+
+// let attribut = document.getElementsByClassName('title')
+
+// console.log(attribut[1].setAttribute('id' , ('amin')))
+
+// let styleelem = document.getElementsByClassName('title')
+
+// styleelem[2].style.color='green'
+// styleelem[2].style.backgroundColor='blue'
+
+// let input = document.getElementById('amin')
+// input.value ='node.js'
+// console.log(input.value)
+
+// let h1elem = document.getElementById('amin2')
+
+// h1elem.innerHTML='amin bbc'
+
+
+// let ulitem = document.querySelector('ul')
+
+// let lielem = document.createElement('li')
+// lielem.innerHTML = 'amin bbc '
+
+// let onelielem = document.createElement('li')
+// onelielem.innerHTML ='homeless'
+
+// ulitem.append(lielem)
+// ulitem.append(onelielem)
+
+// style1 = document.getElementsByClassName('title')
+// style1[2].style.color = "blue"
+
+// console.log(lielem)
+// console.log(onelielem)
+
+
+// let h1elem = document.getElementById('amin2')
+
+// function click1(){
+//     h1elem.style.color = "skyblue"
+// }
+
+// let ps5img = document.getElementById('ps5')
+
+// let btn = document.getElementById('btn')
+
+// let ps5flag = false
+
+// function offon(){
+//     if (ps5flag){
+//      ps5img.setAttribute('src' , 'folder/ps5 controll.jpeg')
+//      btn.innerHTML = "turnon"
+//      ps5flag = false
+//     } else  {
+//         ps5img.setAttribute('src' , 'folder/ps5.jpeg')
+//         btn.innerHTML = "turnoff"
+//         ps5flag = true
+//     } 
+//     console.log(ps5flag)
+// }
+
+// function usernamefocos(){
+//     console.log("focusname is true")
+// }
+// function usernameblur(){
+//     console.log("blurname is true")
+// }
+// function passwordfocos(){
+//     console.log("focuspass is true")
+// }
+// function passwordblur(){
+//     console.log("bulrpass is true")
+// }
+
+// let h1elem = document.querySelector('.title')
+
+// h1elem.addEventListener('click',clickevent1)
+
+// function clickevent1(){
+//     console.log('checked')
+// }
+
+// let h1elem = document.getElementById('title')
+
+// h1elem.addEventListener('click',function(){
+//     // h1elem.classList.add('red')
+//     // h1elem.classList.remove('fm_font')
+//     h1elem.classList.toggle('red')
+// })
+
+// let countrys = document.getElementById('country')
+
+// function countries(){
+//     console.log(countrys.value)
+// }
+
+
+
+// let coutryselectbox = document.querySelector('.countrySelect');
+
+// let cityselect = document.querySelector('.citySelect');
+
+// let countriesdata = {
+//     iran:["tabriz","khalkhal","tehran","esfehan","shiraz","yazd","karaj","mashhad","kerman",],
+//     turkey:["istambol","ezmir","van","ankara","antalia",],
+//     USA :["newyouk","chicado","san loes","texas","felorida","los angels"]
+// };
+
+// coutryselectbox.addEventListener("change",function(){
+//     console.log(coutryselectbox.value)
+//     if(coutryselectbox.value === "Please Select"){
+//         cityselect.innerHTML="";
+//         cityselect.innerHTML+= "<option> Please Select your city </option>";
+//     }else{
+//         let maincountryname = coutryselectbox.value;
+//         let maincountrycities = countriesdata[maincountryname]
+//         cityselect.innerHTML = "";
+
+//       maincountrycities.forEach(function(citi){
+//         cityselect.innerHTML += "<option>" + citi + "</option>"
+//       });
+        
+//     }
+// })
+    
+// let ulelem = document.querySelector('ul')
+
+// function addnewli(){
+//     let lielem = document.createElement('li')
+//     lielem.innerHTML =  "hello world"
+//     ulelem.append('hello world')
+//     console.log(ulelem)
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+function myFunction() {
+  var input, filter, ul, li, a, i, txtValue;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("myUL");
+  li = ul.getElementsByTagName("li");
+  for (i = 0; i < li.length; i++) {
+      a = li[i].getElementsByTagName("a")[0];
+      txtValue = a.textContent || a.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+          li[i].style.display = "";
+      } else {
+          li[i].style.display = "none";
+      }
+  }
+}
+
+
+
+
