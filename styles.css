@@ -535,16 +535,16 @@ div.scrollmenu a:hover {
 
 /* Button used to open the chat form - fixed at the bottom of the page */
 .open-button {
-  background-color: #ff0000;
+  background-color: #ffffff00;
   color: rgb(255, 255, 255);
   padding: 16px 20px;
   border: none;
-  cursor: pointer;
+ cursor: pointer;
   opacity: 0.8;
   position: fixed;
   bottom: 23px;
   right: 28px;
-  width: 280px;
+  
 }
 
 /* The popup chat - hidden by default */
@@ -1622,4 +1622,18 @@ input[type=email8], select, textarea {
 }
 
 
+/* hover shadow box */
+.card {
+  box-shadow: 0 10px 10px 0 rgb(93, 143, 243);
+  transition : 1.5s;
+  width : 20%;
+ 
+}
 
+.card:hover {
+  box-shadow: 0 100px 800px 0 rgb(0, 255, 13) ;
+}
+
+.container {
+  padding: 20px 16px;
+}
